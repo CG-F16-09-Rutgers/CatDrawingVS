@@ -24,7 +24,13 @@ $(function(){
 	var clients = {};
 	var cursors = {};
 
-	var socket = io.connect(url);
+	$(document).ready(function () {
+		setTimeout(sendAlert, 2000);
+	});
+	
+	sendAlert() {
+		alert("Halp!");
+	}
 	
 	socket.on('moving', function (data) {
 		
