@@ -3,6 +3,8 @@
 
 Yes, seriously.
 
-Node.js
+Not using Node.js anymore...
+Go to Fancycats.me
+F12 to start server
 
 HackRU October 2014
